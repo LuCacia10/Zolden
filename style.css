@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: grey;
 }
 .information-1{
     width: 15%;
@@ -24,8 +25,37 @@
 .row .col{
     width: 180px;
 }
-
-
-
-
+footer{
+    display: flex;
+    justify-content: space-around;
+    color: grey;
+}
+footer div{
+    width: 20%;
+}
+footer div h3{
+    margin-bottom: 35px;
+}
+#contact{
+    display: flex;
+    padding: 1px;
+}
+#contact input{
+    border-right: none;
+    border-color:grey;
+}
+#contact button{
+    border-left: none;
+    border-color: grey;
+    background-color: white;
+}
+#icons{
+    display: flex;
+    margin-top: 50px;
+}
+#farany {
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+}
 /*FIN du code*/
