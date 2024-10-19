@@ -1,3 +1,31 @@
 /*Votre Code ICI*/
+#information{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.information-1{
+    width: 15%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.information-1 img{
+}.row{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.row i {
+    color: rgb(110, 193, 228); 
+    font-size: 50px;
+}
+
+.row .col{
+    width: 180px;
+}
+
+
+
 
 /*FIN du code*/
