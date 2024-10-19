@@ -1,3 +1,32 @@
 /*Votre Code ICI*/
-
+#first{
+    border: 1px solid black;
+    background-image: url(img/OUTFITS.jpg);
+    height: 500px;
+    padding-top: 200px;
+    padding-left: 410px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#good{
+    background-color: aliceblue;
+    width: 500px;
+    height: 250px;
+    padding-top: 28px;
+}
+#discover{
+    margin-top: 50px;
+}
+#valider{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border: none;
+}
+#new{
+    color: aqua;
+}
 /*FIN du code*/
