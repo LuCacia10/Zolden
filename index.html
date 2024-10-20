@@ -3,27 +3,158 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.css">
     <title>Zolden</title>
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="stylesheet" href="font/fontawesome-free-5.15.3-web/css/all.css" type="text/css">
 </head>
 <body>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!--Lucacia's Code-->
+    <!--Anjara's Code Header-->
+    <header>
+        <img src="Image/logo.JPG" alt="" id="logo">
+        <nav id="navbar">
+            <div id="hamburger-menu" onclick="display_menu()">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </div>
+            <div id="menu-1">
+                <ul>
+                    <li>
+                        <a href="#">Shop</a>
+                    </li>
+                    <li>
+                        <select name="woman" id="woman">
+                            <option value="Woman">
+                                <a href="">
+                                    Woman
+                                </a>
+                            </option>
+                            <option value="Woman">
+                                <a href="">
+                                    Cloth
+                                </a>
+                            </option>
+                            <option value="Woman">
+                                <a href="">
+                                    Pants
+                                </a>
+                            </option>
+                        </select>
+                    </li>
+                    <li>
+                        <select name="man" id="man">
+                            <option value="man">
+                                <a href="">
+                                    man
+                                </a>
+                            </option>
+                            <option value="man">
+                                <a href="">
+                                    Short
+                                </a>
+                            </option>
+                            <option value="man">
+                                <a href="">
+                                    Basket
+                                </a>
+                            </option>
+                        </select>
+                    </li>
+                    <li>
+                        <a href="">Sale</a>
+                    </li>
+                    <li>
+                        <select name="pages" id="pages">
+                            <option value="pages">
+                                <a href="">
+                                    Pages
+                                </a>
+                            </option>
+                            <option value="Woman">
+                                <a href="">
+                                    Market
+                                </a>
+                            </option>
+                            <option value="Woman">
+                                <a href="">
+                                    Design
+                                </a>
+                            </option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+            <div id="menu-2">
+                <ul>
+                    <li id="search">
+                        <input type="text">
+                        <i class="fa fa-search"></i>
+                    </li>
+                    <li>
+                            <i class="fa fa-balance-scale"></i>
+                            <span class="notification">0</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-heart"></i>
+                        <span class="notification">0</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-shopping-cart"></i>
+                        <span class="notification" style="background-color: rgb(81, 148, 248);">0</span>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--END Anjara's Code-->
+
+    <!--Lucacia's Code section-1 --> 
     <div id="first">
         <div id="good" style="text-align:center;">
             <h4 id="new">New arrival</h4>
-            <h1 id="discover">Discover the latest articles .</h1>
+            <h1 class="discover">Goodbye Stereotypes.</h1>
+            <h1 class="discover">Hello Zerotypes.</h1>
             <a href="#"><button id="valider">Shop now <i class="fa fa-arrow-right"></i></button></a>
         </div>
     </div>
     <!--END Lucacia's Code-->
+
+    <!--Anjara's Code Section-2 -->
+    <section id="section-2">
+        <div id="section-2-left" class="section-2-content">
+            <div>
+                <h4>Accessories</h4>
+                <p>Everyone's talking about</p>
+            </div>
+            <a href="#">Shop Now <i class="fa fa-arrow-right" style="font-size:0.75em;"></i></a>
+        </div>
+        <div id="section-2-right">
+            <div id="section-2-right-top" class="section-2-content">
+                <div>
+                    <h4>Woman</h4>
+                    <p>Elevated Confort</p>
+                </div>
+                <a href="#">Shop Now <i class="fa fa-arrow-right" style="font-size:0.75em;"></i></a>
+            </div>
+            <div id="section-2-right-bottom" class="section-2-content">
+                <div>
+                    <h4>Man</h4>
+                    <p>Your Wardrobe refresh</p>
+                </div>
+                <a href="#">Shop Now <i class="fa fa-arrow-right" style="font-size:0.75em;"></i></a>
+            </div>
+        </div>
+    </section>
+    <!--END Anjara's Code-->
     
     <!--DUDE Code-->
+    <div id="choose-content">
+        <a href="">New Arrivals</a>
+        <a href="">Best Sellers</a>
+        <a href="">Final Stock Sale</a>
+        <a href="">Women</a>
+        <a href="">Men</a>
+    </div>
     <div class="container">
         <div class="item">
             <img src="image/Screenshot 2024-10-18 185720.png" alt="Photo 1">
@@ -95,8 +226,8 @@
         <div class="item">
             <img src="image/Screenshot 2024-10-18 190051.png" alt="Photo 10">
             <div class="text">
-                <p>Cataye sunglasses</p>
-                <p>$30.00</p>
+                <p>Cateye sunglasses</p>
+                <p><span style="color:rgb(60,60,60);text-decoration:line-through;">$60.00</span> $30.00</p>
             </div>
         </div>
         <div class="item">
@@ -115,6 +246,7 @@
         </div>
     </div>
     <!--END DUDE Code-->
+    <script src="app.js"></script>
     
 </body>
 </html>
